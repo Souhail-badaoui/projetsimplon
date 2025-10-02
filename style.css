@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgba(48, 45, 62, 0.9);
+    color: white;
+     scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    background-color: rgba(57, 53, 78, 0.9);
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 12px;
+    
+}
+.logo img{
+    width: 35px;
+    height: 40px;
+    align-items: center;
+    object-fit: contain;
+    position: relative;
+    top: 13px;
+}
+header span{
+    text-align: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-left: 20px;
+}
+nav {
+    display: flex;
+    list-style: none;
+    gap: 20;
+   
+}
+
+nav :hover {
+  color: #00bfff;
+  
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 17px 33px;
+    
+}
+.Btn{
+    background-color: #00aaff;
+    color: white;
+    padding: 16px;
+    border-radius: 14px;
+    font-size: 16px;
+    text-decoration: none;
+    border: white;
+    
+}
+.Btn3{
+    background-color: #00aaff;
+    color: white;
+    padding: 17px;
+    margin: 30px;
+    border-radius: 12px;
+    font-size: 16px;
+    text-decoration: none;
+    border: blue;
+
+}
+.Btn3:hover{
+    transform: translateY(10px);
+    cursor: pointer;
+}
+/* .Btn :hover{
+    
+} */
+#Hero{
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    box-shadow: inset 700px 700px  rgba(33, 30, 49, 0.9);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 60vh;
+    padding: 0 20px; 
+}
+#surf{
+    font-size: 80px;
+    margin-top: 36px;
+    padding-top: 50px;
+    
+}
+h1 span{
+    color: #00aaff;
+}
+#Hero p{
+    font-size: 15px;
+    top: 0;
+    margin-top: 20px;
+    padding-right: -30px;
+    color: #cccccc;
+}
+#About-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 40px;
+    background-color:  rgba(57, 53, 78, 0.9);;
+    color: white;
+    gap: 40px;
+}
+.About-item h2{
+    font-size: 53px;
+    position: relative;
+    top: 30px;
+
+}
+h2 span{
+    color: #00aaff;
+}
+.About-item p{
+    font-size: 18px;
+    color: #b9b7b7;
+    line-height: 1.9;
+    position: relative;
+    top: 60px;
+    width: 750px;
+}
+.About-img img {
+    display: block;
+    width: 600px;
+    height: 600px;
+    border-radius: 30px;
+    position: relative;
+    top: 60px;
+    right: 70px;
+    
+}
+#programme {
+    text-align: center;
+    padding: 80px 40px;
+    background-color: rgba(57, 53, 78, 0.9);
+}
+#programme h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    position: relative;
+    top: 70px;
+}
+.timeline{
+    position: relative;
+    margin: auto;
+    top:100px;
+    width: 1300px;
+    
+}
+.container-right{
+    left:0;
+    text-align: right;
+}
+.container-left{
+    left:50%;
+    text-align: left;
+}
+.content{
+    background-color:  rgba(48, 45, 62, 0.9);
+    padding: 30px 30px;
+    display: inline-block;
+    border-radius: 15px;
+    max-width: 400px;
+    position: relative;
+    bottom: 46px;
+}
+.icon{
+    display: flex;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 600px;
+    background-color: #00aaff;
+
+    transform: translateY(-50%);
+
+}
+#Courses{
+    background-color: rgba(57, 53, 78, 0.9);
+    gap: 32px;
+    
+}
+#Courses h2{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.Gallery{
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3 -40px);
+ 
+
+}
+.Gallery img {
+        margin: 40px;
+        width: 300px;
+        display: block;
+        top: 170px;
+        position: relative;
+        margin: 0;  
+        border-radius: 30px;
+}
+#contact{
+    margin-bottom: 0px;
+    position: relative;
+    top: 280px;
+   
+}
+#contact h2{
+    font-size: 53px;
+    
+}
+#contact .contact-form{
+    width: 80%;
+    flex-basis: 40%;
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 88px;
+    align-items: center;
+
+}
+.form{
+    background-color: rgba(54, 51, 75, 0.9);
+    
+    display: block;
+    width: 600px;
+    outline: none;
+    border-radius: 120px;
+    border: none;
+    padding:30px;
+    left: 700px;
+}
+.input{
+    background-color: rgba(33, 30, 49, 0.9);
+    padding: 40px;
+    border-radius: 11px;
+    position: relative;
+    left: 130px;
+}
+input {
+    margin-bottom: 17px;
+}
+.input textarea {
+    padding: 50px 35px;
+}
+.Submit{
+    padding: 15px 180px; 
+    margin-top: 31px;
+    outline: none;
+    position: relative;
+    left: 87px;
+    border: none;
+    font-size: 19px;
+    border-radius: 30px;
+    background-color: #00aaff;
+    color: white;
+}
+.contact-info{
+    position: relative;
+    left: 70px;
+}
+.contact-info h2{
+    font-size: 66px;
+}
+.contact-info p{
+    line-height: 40px;
+    align-items: center;
+    color: #cccccc;
+}
+.form-item{
+    
+    align-items: center;
+      
+    
+}
+.error{
+    display: flex;
+   
+}
+.error p{
+    width: 270px;
+    line-height: 30px;
+    align-items: center;
+}
+
+.fonts{
+    padding: 10px 10px;
+    width: 50px;
+    margin: 0 0;
+    text-align: center;
+    margin-right: 20px ;
+    color: #00aaff;
+    background-color: rgba(57, 53, 78, 0.9);
+    border-radius: 30px;
+   
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0b161b;
+  margin-top: 30px;
+}
+.map{
+    margin-top: 10px;
+   align-items: center;
+}
+#weather{
+    margin-top: 300px;
+}
+#weather h2 {
+    text-align: center;
+    line-height: 40px;
+    font-size: 46px;
+
+}
+.p1{
+     text-align: center;
+     font-size: 16px;
+     line-height: 50px;
+}
