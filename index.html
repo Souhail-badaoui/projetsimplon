@@ -13,7 +13,8 @@
         <div class="logo">
              <p><img src="school.png"><span>Taghazout Surf Expo</span> </p>
         </div>
-       
+       <div class="menu-toggle"><i class="fa fa-bars"></i></div>
+
        
     <nav class="nav-item">
        <li><a href="#Hero" class="nav-link">Home</a></li>
@@ -51,87 +52,135 @@
         </div>
 
     </section>
-    <section id="programme">
-         <h2>Event <span>Programme</span></h2>
-        <div class="timeline">
-            <div class="container-left">
-            <div class="icon"><i class="fas fa-water"></i></div>
-            <div class="content">
-                <h3>Night Surf Competition</h3>
-                 <p>Sunday, 12 PM</p>
-            </div>
+  
+  <section class="programme">
+    <h2>Event <span>Programme</span></h2>
+
+    <div class="timeline">
+     
+      <div class="container-left">
+        <div class="icon">
+            <i class="fas fa-flag-checkered"></i>
         </div>
-         <div class="container-right">
-            <div class="icon"><i class="fas fa-water"></i></div>
-            <div class="content">
-                <h3>Opening Ceremony</h3>
-                 <p>Saturday, 8 PM</p>
-            </div>
-         </div>
-         <div class="container">
-               <div class="container-left">
-            <div class="icon"><i class="fas fa-water"></i></div>
-            <div class="content">
-                <h3>Night Surf Competition</h3>
-                 <p>Friday, 7 PM</p>
-            </div>
-         </div>
-          <div class="container-right">
-            <div class="icon"><i class="fas fa-water"></i></div>
-            <div class="content">
-                <h3>Live Music & Entertainment</h3>
-                 <p>Saturday, 10 PM</p>
-            </div>
-         </div>
-         </div>
-          </div>
-         </section>
-         <section id="Courses">
-            <h2>Courses Surf <span>Expo</span></h2>
-            <div class="Gallery">
-                <li class="courses-img"><img src="course3.jpg" alt="galery"></li>
-                <li class="courses-img"><img src="course3.jpg" alt="galery"></li>
-                <li class="courses-img"><img src="course3.jpg" alt="galery"></li>
-                <li class="courses-img"><img src="course3.jpg" alt="galery"></li>
-                <li class="courses-img"><img src="course3.jpg" alt="galery"></li>
-                
-            </div>
-         </section>
-     <section id="weather">
+        <div class="content">
+          <h3>Opening Ceremony</h3>
+          <p>Friday, 7 PM</p>
+        </div>
+      </div>
+
+    
+      <div class="container-right">
+        <div class="icon"><i class="fas fa-water"></i>
+        </div>
+        <div class="content">
+          <h3>Night Surf Competition</h3>
+          <p>Saturday, 8 PM</p>
+        </div>
+      </div>
+
+ 
+      <div class="container-left">
+        <div class="icon" >
+            <i class="fas fa-music"></i>
+        </div>
+        <div class="content">
+          <h3>Live Music & Entertainment</h3>
+          <p>Saturday, 10 PM</p>
+        </div>
+      </div>
+
+    
+      <div class="container-right">
+        <div class="icon"><i class="fas fa-glass-cheers"></i></div>
+        <div class="content">
+          <h3>Closing Party</h3>
+          <p>Sunday, 12 PM</p>
+        </div>
+      </div>
+    </div>
+  </section>
+      <section id="Courses">
+  <h2>Courses Surf <span>Expo</span></h2>
+
+  <!-- الكارطات الثابتة -->
+  <div class="static-cards">
+    <!-- Card 1 -->
+    <article class="card">
+      <img src="surf.jpg" alt="Surf">
+      <h3>Surf Classes</h3>
+      <p>Learn to surf with local pros on Taghazout beach — beginner friendly sessions.</p>
+      <button class="btn">Join</button>
+    </article>
+
+    <!-- Card 2 -->
+    <article class="card">
+      <img src="yoga.jpg" alt="Yoga">
+      <h3>Yoga Sessions</h3>
+      <p>Morning yoga by the sea to relax, stretch and recharge your energy.</p>
+      <button class="btn">Join</button>
+    </article>
+
+    <!-- Card 3 -->
+    <article class="card">
+      <img src="cooking.jpg" alt="Cooking">
+      <h3>Cooking Class</h3>
+      <p>Discover Moroccan recipes with local chefs — hands-on and tasty!</p>
+      <button class="btn">Join</button>
+    </article>
+
+    <!-- Card 4 -->
+    <article class="card">
+      <img src="working.jpg" alt="Workshop">
+      <h3>Marketing Workshop</h3>
+      <p>Short practical workshops to boost your online shop and social ads.</p>
+      <button class="btn">Join</button>
+    </article>
+      <article class="card">
+      <img src="camel.jpeg" alt="Workshop">
+      <h3>Marketing Workshop</h3>
+      <p>Short practical workshops to boost your online shop and social ads.</p>
+      <button class="btn">Join</button>
+    </article>
+    </div>
+  </div>
+</section>
+    <section id="weather"> 
+        <div class="flex">
         <h2>Live <span>Weather</span> Forecast</h2>
-        <p class="p1">Stay updated with the latest weather conditions in Taghazout.</p>
-
-        <div class="weather-content">
-        
-            <div class="weather-now">
-            <i id="weather-icon" class='bx bx-sun'></i>
-            <h1 id="temp">--°</h1>
-            <p id="desc">Loading...</p>
-            </div>
-            <div class="weather-details">
-            <p id="wind"><i class='bx bx-wind'></i> Wind: -- km/h</p>
-            <p id="humidity"><i class='bx bx-droplet'></i> Humidity: --%</p>
-            </div>
-        </div>
-        </section>
-
+         <p class="p1">Stay updated with the latest weather conditions in Taghazout.</p> 
+         <div class="weather-content"> 
+            <div id="weather2">
+         <div class="weather-now"> 
+            <p>NOW</p>
+            <i class="fa-solid fa-sun" ><h1 id="temp">--°</h1></i> 
+            <p id="desc">Loading...</p> 
+        </div> 
+            <div class="weather-details"> 
+                <p id="wind"><i class="fa-solid fa-wind"></i> Wind: -- km/h</p> 
+                <p id="humidity"><i class="fa-solid fa-droplet"></i> Humidity: --%</p>
+                 <p id="swelt"><i class="fa-solid fa-person-shelter"></i> sweelt: 1.5m</p> 
+                </div> 
+                </div> 
+                </div>
+                </div> 
+            </section>
+            
         <section id="contact">
             <div class="contact-form">
             <div class="contact-info">
                 <h2>Get In <span>Touch</span></h2>
-                <p>We'd love to hear from you. Reach us using the details below Reach us using the details  </p>
-                <p>We'd love to hear from you. Reach us using the details below Reach us using the details  </p>
-                <p>We'd love to hear from you. Reach us using the details below Reach us using the details </p>
+                <p style="width: 750px;">We'd love to hear from you. Reach us using the details below Reach us using the details We'd love to hear from you. 
+                    Reach us using the details below Reach us using the details    </p>
+             
                 <div class="error">
                 <div class="form-item">
                     <div class="fonts">
                         <i class="fa-solid fa-envelope"></i>
                     </div>
                     <div class="fonts2">
-
                          <h4>Email</h4>
                     <p>Reach out to us via email</p>
-                    <link>simplon@gmail.com</link>
+                    <h5>simplon@gmail.com</h5>
                     </div>
                    
                 </div>
@@ -143,23 +192,24 @@
                     <div class="fonts2">
                     <h4>phone</h4>
                     <p>give us a call for chat</p>
-                    <link id="link">+212633445566</link>
+                    <h5>+212633445566</h5>
                     </div>
                 </div>
                  <div class="form-item">
 
                     <div class="fonts">
-                        <i class="fa-solid fa-envelope"></i>
+                        <i class="fa-solid fa-envelope" ></i>
                     </div>
                     <div class="fonts2">
                     <h4>location</h4>
                     <p>Agadir , Morocco</p>
+                    <h5>View In Map</h5>
                   
                     </div>
                 </div>
                 </div>
                 <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d109967.7955715341!2d-9.6971512!3d30.5353551!3m2!1i1024!2i768!4f13.1!2m1!1staghazout%20bay!5e0!3m2!1sfr!2sma!4v1759400283781!5m2!1sfr!2sma" width="660" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d109967.7955715341!2d-9.6971512!3d30.5353551!3m2!1i1024!2i768!4f13.1!2m1!1staghazout%20bay!5e0!3m2!1sfr!2sma!4v1759400283781!5m2!1sfr!2sma" width="700" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 
                     </iframe>
                 </div>
