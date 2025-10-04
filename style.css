@@ -587,7 +587,8 @@ nav li:hover{
 
 @media (max-width: 768px) {
     html , body{
-       
+
+       max-width: 1400px;
     }
 header {
         flex-direction: row;
@@ -807,7 +808,7 @@ nav li a {
         font-size: 21px;
     }
     .form {
-        width: 370px;
+        width: 350px;
         padding: 20px;
         border-radius: 40px;
     }  
@@ -835,12 +836,12 @@ nav li a {
     .contact-info p {
         line-height: 28px;
         font-size: 18px;
-        max-width: 420px;
-        margin-left: -40px;
+        max-width: 320px;
+        margin-left: -1px;
        
     }
     .map iframe{
-      width: 410px;
+      width: 380px;
       margin-left: -40px;
     }
 }
