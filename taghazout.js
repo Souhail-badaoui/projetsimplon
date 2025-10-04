@@ -25,11 +25,30 @@
   }
   getWeather();
   
-  const toggle = document.querySelector(".menu-toggle");
-const nav = document.querySelector(".nav-item");
+  const menu = document.getElementById('mobile-menu');
+const nav = document.querySelector('nav');
 
-toggle.addEventListener("click", () => {
-  nav.classList.toggle("active");
+menu.addEventListener('click', () => {
+    nav.classList.toggle('active');
 });
+const faders = document.querySelectorAll('.fade-in');
+
+const appearOptions = {
+  threshold: 0.1
+};
+
+const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('visible');
+      appearOnScroll.unobserve(entry.target);
+    }
+  });
+}, appearOptions);
+
+faders.forEach(fader => {
+  appearOnScroll.observe(fader);
+});
+
 
 
